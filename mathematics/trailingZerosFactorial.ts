@@ -40,3 +40,4 @@ function optimalApproach(num: number): number {
 
 console.log(optimalApproach(20))
 
+// Time Complexity --> O(logn)
