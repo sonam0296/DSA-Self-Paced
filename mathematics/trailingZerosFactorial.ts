@@ -20,7 +20,7 @@ function countZeros(num: number){
     return result
 }
 
-console.log(countZeros(10))
+console.log(countZeros(20))
 
 /**
  * Time Complexity - O(n)
@@ -32,11 +32,11 @@ console.log(countZeros(10))
 
 function optimalApproach(num: number): number {
     let res = 0
-    for (let i = 5; i <= num; i++) {
+    for (let i = 5; i <= num; i=i*5) {
         res = res + Math.floor(num/i)        
     }
     return res
 }
 
-console.log(optimalApproach(5))
+console.log(optimalApproach(20))
 
