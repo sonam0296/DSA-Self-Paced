@@ -22,7 +22,7 @@ console.log(factorialIterativeApproach(4))
 
 function recursiveFactorialApproach(num: number) : number {
     // Base condition
-    if (num === 0 || num === 1) {
+    if (num === 0) {
         return 1
     }
     return num * recursiveFactorialApproach(num - 1)
