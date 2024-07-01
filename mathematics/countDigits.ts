@@ -1,4 +1,4 @@
-function countDigits(num) {
+function countDigits(num: number) : number {
     // Initializing count i.e 0
     let count = 0;
     // Loop till num > 0
